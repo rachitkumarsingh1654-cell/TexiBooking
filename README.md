@@ -55,7 +55,7 @@ To get started with the SwiftRide application, follow these steps:
 2**Build the project:**
 
 ```bash
-    mvn clean install
+    gradle build
 ```
 
 3## 🏃‍♂️ Running the Application
@@ -63,7 +63,7 @@ To get started with the SwiftRide application, follow these steps:
 To run the application, use the following command:
 
 ```bash
-mvn spring-boot:run
+./gradlew bootRun
 ```
 The application will start on [http://localhost:8080](http://localhost:8080).
 
