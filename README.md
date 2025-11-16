@@ -175,3 +175,5 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 ```bash
  Big Thanks To "AccioJob" for Helping me out 
 ```
+
+entity(model) -> repository -> dto(req/res) -> transformer(used for converting entity <-> dto) -> service (api-logic) -> exception (custom exception that service might throw and controller must return clean responses) -> controller (here creating rest apis)
