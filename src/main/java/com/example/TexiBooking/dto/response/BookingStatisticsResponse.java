@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @Builder
-public class BookingStaticsResponse {
+public class BookingStatisticsResponse {
     private long totalBookings;
     private long completedBookings;
     private long canceledBookings;
