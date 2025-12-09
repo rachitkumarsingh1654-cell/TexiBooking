@@ -23,4 +23,5 @@ public interface BookingRepo extends JpaRepository<Booking, Integer>{
     double calculateTotalRevenue(TripStatus tripStatus);
 
     List<Booking> findByTripStatus(TripStatus status);
+
 }
